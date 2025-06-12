@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeNavigation from './HomeNavigation'
 import meProfile from '../assets/meProfile.jpg';
+import Footer from './Footer';
 function About() {
   return (
   <div>
@@ -133,6 +134,9 @@ function About() {
           animation-delay: 0.6s;
         }
       `}</style>
+      <div>
+        <Footer/>
+      </div>
   </div>
   )
 }

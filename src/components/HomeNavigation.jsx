@@ -27,7 +27,7 @@ function HomeNavigation() {
               </Link>
             </Nav.Link>
             <Nav.Link href="#testimonials" className="text-white text-lg">
-              Testimonials
+              <Link to="/Services" className="text-white text-lg">Services </Link>
             </Nav.Link>
             <Nav.Link href="#contacts" className="text-white text-lg">
               Contacts

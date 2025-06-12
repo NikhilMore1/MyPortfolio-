@@ -2,6 +2,7 @@ import React from "react";
 import HomeNavigation from "./HomeNavigation";
 import AbstractInfo from "./AbstractInfo";
 import Skills from "./Skills";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,9 @@ const HomePage = () => {
       </div>
       <div>
         <Skills/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );
