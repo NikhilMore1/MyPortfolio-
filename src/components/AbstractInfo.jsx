@@ -2,20 +2,45 @@ import React from 'react'
 import meProfile from '../assets/meProfile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Resume_Nikhil_More from '../../public/Resume_Nikhil_More.pdf';
 const AbstractInfo = () => {
   return (
    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-12 bg-gray-50  bg-gradient-to-br from-blue-50 via-black to-purple-100  sm:px-6 lg:px-8">
     <div className="md:w-1/2 text-center md:text-left space-x-6">
     <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
-        Hi! I am <span className="text-blue-600">Nikhil More 👋</span>
+        Hi! I am <span className="text-teal-400" style={{fontWeight:'bolder', fontSize:'3rem'}}>Nikhil More 👋</span>
     </h1>
-    <p className="text-lg text-white">
-        I am a web developer with a passion for creating beautiful and functional websites. <br />
-        Not only websites but I also love to create mobile apps using React Native I love to Integrate with ML and AI models.
+ <div className="max-w-4xl mx-auto px-4 md:px-8 py-8 text-white text-center space-y-6">
+  <p className="text-lg md:text-xl leading-relaxed">
+    I am a passionate <strong>Full-Stack Web Developer</strong> who thrives on crafting beautiful, responsive, and scalable websites using technologies like <strong>React.js</strong>, <strong>Node.js</strong>, and <strong>Tailwind CSS</strong>.
+  </p>
 
-    </p>
+  <p className="text-lg md:text-xl leading-relaxed">
+    Beyond web development, I have a deep enthusiasm for building <strong>cross-platform mobile apps</strong> using <strong>React Native</strong> and <strong>Java (J2EE)</strong>.
+  </p>
+
+  <p className="text-lg md:text-xl leading-relaxed">
+    I love integrating intelligent features using <strong>Machine Learning</strong> and <strong>AI models</strong> to create smart and user-aware systems.
+  </p>
+
+  <p className="text-lg md:text-xl leading-relaxed">
+    I have also worked on real-world healthcare applications, data-driven dashboards, and cloud deployment using <strong>Netlify</strong>, <strong>Vercel</strong>, and <strong>Railway</strong>.
+  </p>
+
+  <p className="text-lg md:text-xl leading-relaxed">
+    Version control and collaboration are key parts of my workflow — I follow clean Git practices and CI/CD integration.
+  </p>
+
+  <p className="text-lg md:text-xl leading-relaxed">
+    I'm constantly exploring the latest trends in technology, aiming to build innovative solutions that make a real impact.
+  </p>
+</div>
+
     <button className="mt-4 px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition">
-        Download CV
+      <a href={Resume_Nikhil_More}
+      download="Nikhil_More_Resume"
+      className="bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition"
+      style={{ textDecoration: 'none'}}>Doewnload Resume</a>
     </button>
 
     </div>

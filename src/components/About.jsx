@@ -2,6 +2,8 @@ import React from 'react'
 import HomeNavigation from './HomeNavigation'
 import meProfile from '../assets/meProfile.jpg';
 import Footer from './Footer';
+import ten_compressed from '../../public/ten_compressed.pdf';   
+import result_12 from '../../public/result_12.pdf';
 function About() {
   return (
   <div>
@@ -51,7 +53,9 @@ function About() {
       <p className="text-gray-700 mb-1"><span className="font-semibold">Year:</span> 2019</p>
       <p className="text-gray-700 mb-4"><span className="font-semibold">Percentage:</span> 62.20%</p>
       <button className="w-full text-white font-bold py-2 px-4 rounded-xl transition duration-500 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 hover:brightness-110">
-        Download Result
+      <a href={ten_compressed}
+      download="10th result_Nikhil_More"
+      style={{textDecoration:'none', color:'white'}}>download Result</a>
       </button>
     </div>
 
@@ -62,7 +66,9 @@ function About() {
       <p className="text-gray-700 mb-1"><span className="font-semibold">Year:</span> 2021</p>
       <p className="text-gray-700 mb-4"><span className="font-semibold">Percentage:</span> 82.50%</p>
       <button className="w-full text-white font-bold py-2 px-4 rounded-xl transition duration-500 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 hover:brightness-110">
-        Download Result
+        <a href={result_12}
+        download="12th result_Nikhil_More"
+        style={{textDecoration:'none', color:'white'}}>Download Result</a>
       </button>
     </div>
 
