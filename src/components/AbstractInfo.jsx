@@ -7,9 +7,55 @@ const AbstractInfo = () => {
   return (
    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-12 bg-gray-50  bg-gradient-to-br from-blue-50 via-black to-purple-100  sm:px-6 lg:px-8">
     <div className="md:w-1/2 text-center md:text-left space-x-6">
-    <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
-        Hi! I am <span className="text-teal-400" style={{fontWeight:'bolder', fontSize:'3rem'}}>Nikhil More 👋</span>
-    </h1>
+    <h1
+  style={{
+    fontSize: '2.5rem', // default for mobile
+    fontWeight: '700',
+    color: '#1F2937', // Tailwind's text-gray-800
+    textAlign: 'center',
+    marginBottom: '1rem',
+    lineHeight: '1.3',
+  }}
+>
+  Hi! I am{' '}
+  <span
+    style={{
+      display: 'inline-block',
+      color: '#2dd4bf', // Tailwind's text-teal-400
+      fontWeight: 'bolder',
+      fontSize: '3rem',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      borderRight: '2px solid #2dd4bf',
+      animation: 'typing 2s steps(14, end) forwards, blink 0.8s step-end infinite',
+    }}
+  >
+    Nikhil More 👋
+  </span>
+
+  <style>
+    {`
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 14ch }
+      }
+      @keyframes blink {
+        0%, 100% { border-color: transparent }
+        50% { border-color: #2dd4bf }
+      }
+
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 3rem;
+        }
+        h1 span {
+          font-size: 3.5rem;
+        }
+      }
+    `}
+  </style>
+</h1>
+
  <div className="max-w-4xl mx-auto px-4 md:px-8 py-8 text-white text-center space-y-6">
   <p className="text-lg md:text-xl leading-relaxed">
     I am a passionate <strong>Full-Stack Web Developer</strong> who thrives on crafting beautiful, responsive, and scalable websites using technologies like <strong>React.js</strong>, <strong>Node.js</strong>, and <strong>Tailwind CSS</strong>.

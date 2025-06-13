@@ -16,10 +16,44 @@ function About() {
           <div className="inline-block bg-amber-400 px-6 py-2 rounded-xl mb-6 shadow-md animate-pulse-slow">
             <p className="text-2xl font-bold text-blue-800">About Me</p>
           </div>
+<h1
+  style={{
+    fontSize: '2.25rem',
+    fontWeight: '800',
+    color: 'white',
+    lineHeight: '1.25',
+    marginBottom: '1rem',
+  }}
+>
+  Hi! I’m{' '}
+  <span
+    style={{
+      display: 'inline-block',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      borderRight: '2px solid white',
+      width: '0ch',
+      animation: 'typing 2s steps(14, end) forwards, blink 0.75s step-end infinite',
+      color: '#60A5FA', // Tailwind's text-blue-400
+    }}
+  >
+    Nikhil More 👋
+  </span>
 
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
-            Hi! I’m <span className="text-blue-400">Nikhil More 👋</span>
-          </h1>
+  <style>
+    {`
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 14ch }
+      }
+      @keyframes blink {
+        0%, 100% { border-color: transparent }
+        50% { border-color: white }
+      }
+    `}
+  </style>
+</h1>
+
 
           <p className="text-lg text-gray-100 mb-6 leading-relaxed">
             I'm a passionate <span className="font-semibold text-pink-300">Full Stack Developer</span> with strong skills in building dynamic, responsive websites and mobile apps using modern frameworks like <span className="text-blue-300">React</span>, <span className="text-green-300">React Native</span> and integrating <span className="text-purple-300">AI/ML models</span>. I love turning ideas into beautiful and efficient user experiences.
