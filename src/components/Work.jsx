@@ -71,7 +71,7 @@ const Work = () => {
               'Streamlit',
               'Google Colab',
             ]}
-            githubLink="https://github.com/your-maleno-repo"
+            githubLink="https://github.com/NikhilMore1/MalenoCare"
           />
 
           <ProjectCard
@@ -85,7 +85,7 @@ const Work = () => {
               'Tailwind CSS',
               'Redux Toolkit',
             ]}
-            githubLink="https://github.com/your-ecart-repo"
+            githubLink="https://github.com/NikhilMore1/E-CART"
           />
 
           <ProjectCard
@@ -99,7 +99,7 @@ const Work = () => {
               'JWT Auth',
               'Tailwind CSS',
             ]}
-            githubLink="https://github.com/your-hotel-repo"
+            githubLink="https://github.com/NikhilMore1/Hotel_Management_Full_Stack"
           />
 
           <ProjectCard
@@ -112,7 +112,7 @@ const Work = () => {
               'Firebase',
               'Google Meet API',
             ]}
-            githubLink="https://github.com/your-ncontact-repo"
+            githubLink="https://github.com/NikhilMore1/nContact_Android_App"
           />
 
           <ProjectCard
@@ -126,7 +126,7 @@ const Work = () => {
               'MongoDB',
               'Socket.IO',
             ]}
-            githubLink="https://github.com/your-chatapp-repo"
+            githubLink="https://github.com/NikhilMore1/ChatApp"
           />
 
           <ProjectCard
@@ -139,7 +139,7 @@ const Work = () => {
               'Tailwind CSS',
               'Chart.js (for score stats)',
             ]}
-            githubLink="https://github.com/your-quiz-repo"
+            githubLink="https://github.com/NikhilMore1/quiz__App"
           />
         </div>
       </div>
