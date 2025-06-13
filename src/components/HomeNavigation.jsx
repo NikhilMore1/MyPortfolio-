@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import Resume_Nikhil_More from '../../public/Resume_Nikhil_More.pdf';
 function HomeNavigation() {
   return (
     <Navbar expand="lg" className="bg-black navbar-dark py-3 shadow-sm">
@@ -29,11 +30,13 @@ function HomeNavigation() {
             <Nav.Link href="#testimonials" className="text-white text-lg">
               <Link to="/Services" className="text-white text-lg">Services </Link>
             </Nav.Link>
-            <Nav.Link href="#contacts" className="text-white text-lg">
-              Contacts
-            </Nav.Link>
             <button className="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition duration-300">
-              Download CV
+             <a href={Resume_Nikhil_More}
+             download="Nikhil_More_Resume.pdf"
+             style={{ textDecoration: 'none', color: 'inherit',fontWeight: 'bold' }}
+             >
+              Download Resume
+             </a>
             </button>
           </Nav>
         </Navbar.Collapse>
