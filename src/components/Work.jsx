@@ -61,7 +61,7 @@ const Work = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-20">
           <ProjectCard
-            title="MalenoCare : Skin Cancer Detection and Guidelines"
+            title="MalenoCare : Skin Cancer Detection and Guidelines Using AI and ML"
             description={`🌟 MalenoCare – Empowering Early Detection Through AI\nMalenoCare is an intelligent healthcare solution designed to detect various types of skin cancer using advanced machine learning and CNN-based models. With a focus on early diagnosis and patient awareness, MalenoCare enables faster, more accurate screening from just an image.\nOur mission is to make skin cancer detection accessible, affordable, and scalable—saving lives with every scan.`}
             techStack={[
               'Python',
@@ -72,6 +72,8 @@ const Work = () => {
               'Google Colab',
             ]}
             githubLink="https://github.com/NikhilMore1/MalenoCare"
+            
+            
           />
 
           <ProjectCard
