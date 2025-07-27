@@ -182,6 +182,7 @@ function About() {
               <h1 className="text-xl font-bold text-indigo-600 mb-4">Full Stack Web Developer (MERN Stack)</h1>
               <p className="text-gray-700 mb-1">Certified by <span className="font-bold text-pink-600">TestBook - Skill Academy</span></p>
               <p className="text-gray-700 mb-1">Duration - 6 Months</p>
+              <button className="w-full text-white font-bold py-2 px-4 rounded-xl transition duration-500 bg-gradient-to-r from-yellow-400 via-pink-500 to-red-500 hover:brightness-110">View Credentials</button>
             </div>
 
             <div className="bg-white p-6 rounded-3xl shadow-2xl max-w-4/5 max-w-6xl text-center transform transition duration-500 hover:scale-105 card-animation card-delay-1">
