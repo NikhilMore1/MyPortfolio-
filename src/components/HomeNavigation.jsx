@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-import Resume_Nikhil_More from '../../public/Resume_Nikhil_More.pdf';
+import NikhilMoreResume from '../../public/NikhilMoreResume.pdf';
 function HomeNavigation() {
   return (
     <Navbar expand="lg" className="bg-black navbar-dark py-3 shadow-sm">
@@ -16,8 +16,8 @@ function HomeNavigation() {
 
         {/* Right: Navigation links */}
         <Navbar.Collapse id="basic-navbar-nav" className="justify-end">
-          <Nav className="gap-4"  style={{textDecoration: 'none'}}>
-            <Nav.Link href="#about" className="text-white text-lg">
+          <Nav className="gap-7"  style={{textDecoration: 'none'}}>
+            <Nav.Link href="#about" className="text-white text-lg about">
               <Link to="/About" className="text-white text-lg"  style={{textDecoration: 'none'}}>
               About
               </Link>
@@ -26,12 +26,16 @@ function HomeNavigation() {
               <Link to="/Work" className="text-white text-lg"  style={{textDecoration: 'none'}}>
               Work
               </Link>
+            
             </Nav.Link>
             <Nav.Link href="#testimonials" className="text-white text-lg">
               <Link to="/Services" className="text-white text-lg"  style={{textDecoration: 'none'}}>Services </Link>
             </Nav.Link>
+             <Nav.Link href="#DSA" className="text-white text-lg">
+            <a href="https://leetcode.com/u/Nikhil-hub-creat/" target='_blank' style={{textDecoration:'none',textUnderlineOffset:'none' , fontSize:'1em',fontWeight:'bold'}} className="text-white text-lg">LeetCode ↗</a>
+            </Nav.Link>
             <button className="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition duration-300">
-             <a href={Resume_Nikhil_More}
+             <a href={NikhilMoreResume}
              download="Nikhil_More_Resume.pdf"
              style={{ textDecoration: 'none', color: 'inherit',fontWeight: 'bold' }}
              >
@@ -45,4 +49,12 @@ function HomeNavigation() {
   );
 }
 
+<style>{
+  `
+  .about: hover{
+    color: white;
+    text-decoration: underline;
+  }
+  `
+  }</style>
 export default HomeNavigation;

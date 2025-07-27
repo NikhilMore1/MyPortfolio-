@@ -2,7 +2,7 @@ import React from 'react'
 import meProfile from '../assets/meProfile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Resume_Nikhil_More from '../../public/Resume_Nikhil_More.pdf';
+import NikhilMoreResume from '../../public/NikhilMoreResume.pdf';
 const AbstractInfo = () => {
   return (
    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-12 bg-gray-50  bg-gradient-to-br from-blue-50 via-black to-purple-100  sm:px-6 lg:px-8">
@@ -83,7 +83,7 @@ const AbstractInfo = () => {
 </div>
 
     <button className="mt-4 px-6 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition">
-      <a href={Resume_Nikhil_More}
+      <a href={NikhilMoreResume}
       download="Nikhil_More_Resume"
       className="bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition"
       style={{ textDecoration: 'none'}}>Doewnload Resume</a>
