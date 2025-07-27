@@ -4,6 +4,7 @@ import meProfile from '../assets/meProfile.jpg';
 import Footer from './Footer';
 import ten_compressed from '../../public/ten_compressed.pdf';   
 import result_12 from '../../public/result_12.pdf';
+import AWS from '../assets/AWS.png';
 function About() {
   return (
   <div>
@@ -176,11 +177,20 @@ function About() {
       `}</style>
       <div className="bg-gradient-to-tr from-yellow-200 via-pink-200 to-purple-200 py-12 px-4 sm:px-6 lg:px-20 rounded-3xl">
         <h1 className="text-4xl md:text-6xl italic font-extrabold text-center text-emerald-700 mb-16">Certification</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-20">
-            <div className="bg-white p-6 rounded-3xl shadow-2xl w-full max-w-xs text-center transform transition duration-500 hover:scale-105 card-animation card-delay-1">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-20">
+            <div className="bg-white p-6 rounded-3xl shadow-2xl max-w-4/5 max-w-6xl text-center transform transition duration-500 hover:scale-105 card-animation card-delay-1">
               <h1 className="text-xl font-bold text-indigo-600 mb-4">Full Stack Web Developer (MERN Stack)</h1>
               <p className="text-gray-700 mb-1">Certified by <span className="font-bold text-pink-600">TestBook - Skill Academy</span></p>
               <p className="text-gray-700 mb-1">Duration - 6 Months</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-3xl shadow-2xl max-w-4/5 max-w-6xl text-center transform transition duration-500 hover:scale-105 card-animation card-delay-1">
+              <h1 className="text-xl font-bold text-indigo-600 mb-4">AWS Certified Cloud Practitionar</h1>
+              <p className="text-gray-700 mb-1">Certified by <span className="font-bold text-pink-600">Amazon Web Services </span></p>
+               <p className="text-gray-700 mb-1">Course Completion by <span className="font-bold text-pink-600">Hope Foundation</span>
+               </p>
+              <p className="text-gray-700 mb-1">Duration - 3 Months</p>
+              <button className="w-full text-white font-bold py-2 px-4 rounded-xl transition duration-500 bg-gradient-to-r from-amber-500 via-indigo-700 to-green-500 hover:brightness-110">View Credentials</button>
             </div>
               </div>
 

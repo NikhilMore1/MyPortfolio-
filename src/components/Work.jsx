@@ -70,6 +70,12 @@ const Work = () => {
               'OpenCV',
               'Streamlit',
               'Google Colab',
+              'JavaScript',
+              'HTML/CSS',
+              'Tailwind CSS',
+              'Flask',
+              'MongoDB',
+              'TypeScript',
             ]}
             githubLink="https://github.com/NikhilMore1/MalenoCare"
             
