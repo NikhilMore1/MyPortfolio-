@@ -31,9 +31,7 @@ function HomeNavigation() {
             <Nav.Link href="#testimonials" className="text-white text-lg">
               <Link to="/Services" className="text-white text-lg"  style={{textDecoration: 'none'}}>Services </Link>
             </Nav.Link>
-             <Nav.Link href="#DSA" className="text-white text-lg">
-            <a href="https://leetcode.com/u/Nikhil-hub-creat/" target='_blank' style={{textDecoration:'none',textUnderlineOffset:'none' , fontSize:'1em',fontWeight:'bold'}} className="text-white text-lg">LeetCode ↗</a>
-            </Nav.Link>
+            
             <button className="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition duration-300">
              <a href={NikhilMoreResume}
              download="Nikhil_More_Resume.pdf"
